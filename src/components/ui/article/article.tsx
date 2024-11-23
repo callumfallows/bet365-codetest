@@ -33,7 +33,7 @@ export function Article({
                 <article>
                     {imageUrl && (
                         <div className="relative w-full">
-                            <img src={imageUrl} alt={title} className="object-cover w-full h-full " />
+                            <img src={imageUrl} alt={title} className="object-cover w-full h-full" />
                         </div>
                     )}
                     <section className="p-[18px]">
