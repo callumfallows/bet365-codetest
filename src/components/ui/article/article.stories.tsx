@@ -4,7 +4,6 @@ import { Article } from './article'
 const meta: Meta<typeof Article> = {
     title: 'Components/Article',
     component: Article,
-    tags: ['autodocs'],
     decorators: [
         (Story) => (
             <div className="max-w-[436px]">
@@ -34,12 +33,6 @@ export const Default: Story = {
     },
 }
 
-export const PrimaryVariant: Story = {
-    args: {
-        ...defaultArgs,
-        variant: 'primary',
-    },
-}
 export const SecondaryVariant: Story = {
     args: {
         ...defaultArgs,
@@ -73,5 +66,12 @@ export const NoSubtile: Story = {
     args: {
         ...defaultArgs,
         subtitle: '',
+    },
+}
+
+export const NoCta: Story = {
+    args: {
+        ...defaultArgs,
+        buttonEvent: undefined,
     },
 }

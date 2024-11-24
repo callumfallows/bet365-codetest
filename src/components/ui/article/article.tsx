@@ -29,7 +29,7 @@ export function Article({
                 scale: 1.1,
             }}
         >
-            <Card className="w-full overflow-hidden border-0 shadow-none bg-black spacey-y-0">
+            <Card className="w-full overflow-hidden border-0 bg-black spacey-y-0 rounded-custom drop-shadow-custom">
                 <article>
                     {imageUrl && (
                         <div className="relative w-full">
@@ -47,8 +47,8 @@ export function Article({
                                 {title}
                             </h2>
                         </CardHeader>
-                        <CardContent className="drop-shadow-none p-0 pt-4 text-left">
-                            <p className="text-lg text-white">{description}</p>
+                        <CardContent className="drop-shadow-none p-0 pt-4 text-left text-wrap truncate">
+                            <p className="break-word text-lg text-white w-full ">{description}</p>
                         </CardContent>
                         {buttonEvent && (
                             <CardFooter className="p-0 mt-[18px]">

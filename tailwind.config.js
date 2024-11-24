@@ -12,6 +12,12 @@ module.exports = {
                 md: 'calc(var(--radius) - 2px)',
                 sm: 'calc(var(--radius) - 4px)',
             },
+            dropShadow: {
+                custom: '0px 10px 15px rgba(0, 0, 0, 0.4)',
+            },
+            rounded: {
+                custom: '24px',
+            },
             colors: {
                 background: 'hsl(var(--background))',
                 foreground: 'hsl(var(--foreground))',

@@ -7,5 +7,5 @@ interface ArticleGridProps {
 }
 
 export function ArticleGrid({ children, className }: ArticleGridProps) {
-    return <div className={cn('container px-4 mx-auto', className)}>{children}</div>
+    return <div className={cn('container mx-auto', className)}>{children}</div>
 }

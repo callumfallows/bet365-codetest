@@ -15,10 +15,10 @@ export const defaultArgsCard1 = {
 
 export const defaultArgsCard2 = {
     imageUrl: articleIamge2,
-    title: 'Lorem ipsum dolor sit amet',
-    subtitle: 'Pellentesque lacinia mollis',
+    title: 'Lacinia mollis',
+    subtitle: 'Sit amet et turpis',
     description:
-        'Cras varius vulputate neque eu consequat. Vivamus placerat rutrum elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. ',
+        'Vivamus placerat rutrum elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. ',
     buttonEvent: () => {
         console.log('Button clicked')
     },
